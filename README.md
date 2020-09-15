@@ -1,3 +1,3 @@
 # picosoc-basys3
 
-This project provides a wrapper module for the [PicoSoC](https://github.com/cliffordwolf/picorv32/tree/master/picosoc) to support the [Basys 3](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start). The implementation follows the existing wrapper modules in the PicoSoC project.
+This project provides a wrapper module for the [PicoSoC](https://github.com/cliffordwolf/picorv32/tree/master/picosoc) to support the [Basys 3](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start). The implementation follows the existing wrapper modules in the PicoSoC project. It assumes the ```.xdc``` file [provided by Digilent](https://github.com/Digilent/Basys3/blob/master/Resources/XDC/Basys3_Master.xdc). To use it, copy it in the same place as the other wrappers. If something doesn't work or you have question, [just ask](https://github.com/tmahlburg/picosoc-basys3/issues/new).
