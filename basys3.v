@@ -102,7 +102,7 @@ module basys3(
 	wire iomem_valid;
 	reg iomem_ready;
 	wire [3:0] iomem_wstrb;
-	wire [31:0] iomem_addr;Copyright (C) 2017  Clifford Wolf <clifford@clifford.at>
+	wire [31:0] iomem_addr;
 	wire [31:0] iomem_wdata;
 	reg [31:0] iomem_rdata;
 
